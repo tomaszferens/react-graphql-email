@@ -8,7 +8,7 @@ import EmailAdder from './EmailAdder'
 export default () => (
     <BrowserRouter>
         <Container text>
-            <Header textAlign="center">emailerrinooo</Header>
+            <Header textAlign="center">emailerino</Header>
             <Switch>
                 <Route path="/" exact component={Home} />
                 <Route path="/add" exact component={EmailAdder} />

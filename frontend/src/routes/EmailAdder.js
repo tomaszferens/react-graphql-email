@@ -64,7 +64,7 @@ class EmailAdder extends Component {
                 <Button onClick={this.sendEmail} fluid>
                     Send email
                 </Button>
-                <Button onClick={this.sendEmailsOverTime} fluid>
+                <Button onClick={this.sendEmailsOverTime} style={{ marginTop: 5 }} fluid>
                     Send emails over time
                 </Button>
             </div>

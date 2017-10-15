@@ -43,7 +43,7 @@ class Home extends Component {
     render() {
         const { data: { allEmails } } = this.props
         return (
-            <div>
+            <div style={{ boxShadow: '0px 2px 14px 3px #ccc', padding: 5, border: '1px solid black', background: 'coral' }}>
                 {allEmails && [
                     <Statistic
                         key="1"
@@ -61,7 +61,7 @@ class Home extends Component {
                                     style={{
                                         border: '1px solid black',
                                         borderRadius: 10,
-                                        background: email.wasOpened ? 'white' : 'whitesmoke',
+                                        background: email.wasOpened ? 'white' : '#ffff6d',
                                         cursor: 'pointer',
                                     }}
                                 >
